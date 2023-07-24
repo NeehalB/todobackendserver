@@ -15,7 +15,7 @@ app.use(express.static("public"));
 app.use("/uploads", express.static("uploads"));
 app.use(cors());
 app.use(express.json());
-const PORT = 8001;
+const PORT = process.env.PORT || 8001;
 
 app.listen(PORT, () => {
   console.log(`Listening at port ${PORT}`);
