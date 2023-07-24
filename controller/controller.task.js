@@ -1,4 +1,4 @@
-import taskModel from "../models/model.task";
+import taskModel from "../models/model.task.js";
 
 export const getTasks = async (req, res) => {
   const { userid, status, page, limit } = req.query;

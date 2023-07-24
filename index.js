@@ -1,8 +1,8 @@
 import express from "express";
 import mongoose from "mongoose";
 import cors from "cors";
-import userRouter from "./router/router.user";
-import taskRouter from "./router/router.task";
+import userRouter from "./router/router.user.js";
+import taskRouter from "./router/router.task.js";
 import dotenv from "dotenv";
 
 dotenv.config();
